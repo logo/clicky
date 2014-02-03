@@ -1,0 +1,18 @@
+
+/**
+ * Clicky
+ */
+
+.logo[data-logo="Clicky"] {
+  width: 3.195286157em;
+  /* (340.37/132.27) * (1+.15+.15) - .15 */
+}
+
+.logo[data-logo="Clicky"] > * {
+  background-image: url(images/logo.svg);
+  margin: -.15em 0 -.15em -.15em;
+}
+
+.logo[data-logo="Clicky"].monochromatic > * {
+  background-image: url(images/logo-monochromatic.svg);
+}
